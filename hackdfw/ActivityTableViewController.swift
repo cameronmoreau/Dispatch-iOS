@@ -41,7 +41,7 @@ class ActivityTableViewController: UITableViewController {
     func loadData() {
         api.getReports { (incidents) in
             if let incidents = incidents {
-                self.incidents = incidents
+                self.incidents = incidents.reverse()
                 self.tableView.reloadData()
             }
         }

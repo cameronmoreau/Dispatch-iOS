@@ -55,13 +55,12 @@ class ApiManager {
     }
     
     func getReports(completion: ((incidents: [Incident]?) -> ())) {
-        Alamofire.request(.GET, "\(baseUrl)vehicle")
+        Alamofire.request(.GET, "\(baseUrl)report")
             .responseJSON { response in
                 
                 if let data = response.result.value {
                     var inc = [Incident]()
                     let json = JSON(data)
-                    print(json)
                     for obj in json.arrayValue {
                         inc.append(Incident(json: obj))
                     }
