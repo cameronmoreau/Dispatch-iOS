@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>CryptoSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>JGProgressHUD.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -19,7 +24,22 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>PusherSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>ReachabilitySwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SCLAlertView.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Starscream.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,6 +52,21 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>25F7CFB9B0DDB6FE2D372F07DF174A1E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>33B27F79A9EF1CA90B118F8E021925E9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>53EA7842E2896CBD976A30A910448CFB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>617B0FC57CCB604D47A24E6198763D04</key>
 		<dict>
 			<key>primary</key>
@@ -42,17 +77,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9D2A4A7ED2D25CA4A9C6F193B540B22B</key>
+		<key>7B05482F147C31E28455C65E39DA6A8E</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C41693E8FC8189EF4E8F9A69476679DE</key>
+		<key>82310FBE397EFCD300C9CC3477EF8273</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>E70741BFAA95122E551C4E7A7CDA04C4</key>
+		<key>CCC57ACC0A721FE5183D90E44033A420</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E53A0EDE10B8ECF7496B295E2673EF86</key>
 		<dict>
 			<key>primary</key>
 			<true/>

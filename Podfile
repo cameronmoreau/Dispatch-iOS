@@ -7,5 +7,6 @@ target 'hackdfw' do
     pod 'SwiftyJSON', '~> 2.3.1'
     pod 'SCLAlertView', '~> 0.5.2'
     pod 'JGProgressHUD', '~> 1.3.1'
+    pod 'PusherSwift', '~> 0.3.0'
 end
 

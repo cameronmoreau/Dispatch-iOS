@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "hackdfw/User.swift"
-            timestampString = "482579743.904006"
+            timestampString = "482599261.685132"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58">
+            startingLineNumber = "63"
+            endingLineNumber = "63">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
@@ -63,6 +63,67 @@
             endingLineNumber = "84"
             landmarkName = "handleToggle(_:)"
             landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "hackdfw/MapViewController.swift"
+            timestampString = "482594888.256234"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hackdfw.MapViewController.__deallocating_deinit"
+                  moduleName = "hackdfw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cameron/Developer/Hackathons/hackdfw2016/hackdfw/hackdfw/MapViewController.swift"
+                  timestampString = "482594888.853382"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hackdfw.MapViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.NSBundle&gt;) -&gt; hackdfw.MapViewController"
+                  moduleName = "hackdfw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cameron/Developer/Hackathons/hackdfw2016/hackdfw/hackdfw/MapViewController.swift"
+                  timestampString = "482594888.853727"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "hackdfw.MapViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;hackdfw.MapViewController&gt;"
+                  moduleName = "hackdfw"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Cameron/Developer/Hackathons/hackdfw2016/hackdfw/hackdfw/MapViewController.swift"
+                  timestampString = "482594888.853914"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

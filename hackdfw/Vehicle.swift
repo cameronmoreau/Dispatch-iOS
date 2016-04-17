@@ -22,7 +22,7 @@ class Vehicle {
     }
     
     init(json: JSON) {
-        self.id = json["id"].stringValue
+        self.id = json["_id"].stringValue
         self.name = json["name"].stringValue
         self.type = json["type"].stringValue
         

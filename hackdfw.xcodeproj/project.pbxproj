@@ -26,6 +26,9 @@
 		7EDD2AA31CC38C4500235967 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2AA21CC38C4500235967 /* User.swift */; };
 		7EDD2AA61CC395A800235967 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2AA51CC395A800235967 /* Vehicle.swift */; };
 		7EDD2AA81CC39D0E00235967 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2AA71CC39D0E00235967 /* CustomAnnotation.swift */; };
+		7EDD2AAA1CC3D2F500235967 /* Incident.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2AA91CC3D2F500235967 /* Incident.swift */; };
+		7EDD2AAE1CC3D86C00235967 /* ActivityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2AAD1CC3D86C00235967 /* ActivityTableViewCell.swift */; };
+		7EDD2AB21CC3E09400235967 /* SettingsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2AB11CC3E09400235967 /* SettingsTableViewController.swift */; };
 		8832853C928501D285574F94 /* Pods_hackdfw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDE9BAC7AF11827FBE1A337 /* Pods_hackdfw.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,6 +75,9 @@
 		7EDD2AA21CC38C4500235967 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		7EDD2AA51CC395A800235967 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
 		7EDD2AA71CC39D0E00235967 /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		7EDD2AA91CC3D2F500235967 /* Incident.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Incident.swift; sourceTree = "<group>"; };
+		7EDD2AAD1CC3D86C00235967 /* ActivityTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewCell.swift; sourceTree = "<group>"; };
+		7EDD2AB11CC3E09400235967 /* SettingsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsTableViewController.swift; sourceTree = "<group>"; };
 		A608DA587470FC54161F3989 /* Pods-hackdfw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackdfw.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackdfw/Pods-hackdfw.release.xcconfig"; sourceTree = "<group>"; };
 		EE344F593C3637A06ADB33D7 /* Pods-hackdfw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackdfw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackdfw/Pods-hackdfw.debug.xcconfig"; sourceTree = "<group>"; };
 		FBDE9BAC7AF11827FBE1A337 /* Pods_hackdfw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackdfw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +154,7 @@
 				7EDD2A641CC3890B00235967 /* hackdfw.xcdatamodeld */,
 				7EDD2AA01CC38B8F00235967 /* ApiManager.swift */,
 				7EDD2AA71CC39D0E00235967 /* CustomAnnotation.swift */,
+				7EDD2AAD1CC3D86C00235967 /* ActivityTableViewCell.swift */,
 			);
 			path = hackdfw;
 			sourceTree = "<group>";
@@ -177,6 +184,7 @@
 				7EDD2A8F1CC389B000235967 /* EntryViewController.swift */,
 				7EDD2A901CC389B000235967 /* MapViewController.swift */,
 				7EDD2A911CC389B000235967 /* SignUpViewController.swift */,
+				7EDD2AB11CC3E09400235967 /* SettingsTableViewController.swift */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -196,6 +204,7 @@
 			children = (
 				7EDD2AA21CC38C4500235967 /* User.swift */,
 				7EDD2AA51CC395A800235967 /* Vehicle.swift */,
+				7EDD2AA91CC3D2F500235967 /* Incident.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -395,7 +404,10 @@
 				7EDD2A961CC389B000235967 /* ActivityTableViewController.swift in Sources */,
 				7EDD2A991CC389B000235967 /* SignUpViewController.swift in Sources */,
 				7EDD2A9D1CC389B000235967 /* UIViewExtension.swift in Sources */,
+				7EDD2AAA1CC3D2F500235967 /* Incident.swift in Sources */,
 				7EDD2A981CC389B000235967 /* MapViewController.swift in Sources */,
+				7EDD2AB21CC3E09400235967 /* SettingsTableViewController.swift in Sources */,
+				7EDD2AAE1CC3D86C00235967 /* ActivityTableViewCell.swift in Sources */,
 				7EDD2A9A1CC389B000235967 /* ToggleButton.swift in Sources */,
 				7EDD2A971CC389B000235967 /* EntryViewController.swift in Sources */,
 				7EDD2AA11CC38B8F00235967 /* ApiManager.swift in Sources */,

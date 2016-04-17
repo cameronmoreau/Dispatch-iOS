@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '6B4387454C469E325F6A0D1C'
+               BlueprintIdentifier = 'C2B126C37C1DE370AE57B921'
                BlueprintName = 'Pods-hackdfw'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'Pods_hackdfw.framework'>

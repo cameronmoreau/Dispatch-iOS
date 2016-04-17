@@ -85,13 +85,21 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-hackdfw/Alamofire.framework"
+  install_framework "Pods-hackdfw/CryptoSwift.framework"
   install_framework "Pods-hackdfw/JGProgressHUD.framework"
+  install_framework "Pods-hackdfw/PusherSwift.framework"
+  install_framework "Pods-hackdfw/ReachabilitySwift.framework"
   install_framework "Pods-hackdfw/SCLAlertView.framework"
+  install_framework "Pods-hackdfw/Starscream.framework"
   install_framework "Pods-hackdfw/SwiftyJSON.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-hackdfw/Alamofire.framework"
+  install_framework "Pods-hackdfw/CryptoSwift.framework"
   install_framework "Pods-hackdfw/JGProgressHUD.framework"
+  install_framework "Pods-hackdfw/PusherSwift.framework"
+  install_framework "Pods-hackdfw/ReachabilitySwift.framework"
   install_framework "Pods-hackdfw/SCLAlertView.framework"
+  install_framework "Pods-hackdfw/Starscream.framework"
   install_framework "Pods-hackdfw/SwiftyJSON.framework"
 fi

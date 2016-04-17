@@ -29,7 +29,12 @@ class User {
     }
     
     func isAuthenticated() -> Bool {
-        return self.id != nil
+        if let id = self.id {
+            if id != "" {
+                return true
+            }
+        }
+        return false
     }
     
     func loadStoredData() {

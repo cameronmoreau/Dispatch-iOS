@@ -8,6 +8,8 @@
 
 import UIKit
 import MapKit
+import SCLAlertView
+import PusherSwift
 
 class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewDelegate {
     
@@ -15,9 +17,20 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
     
     let locationManager = CLLocationManager()
     let api = ApiManager()
+    
+    let pusher = Pusher(key: "7c698f5c95d6b5063a7c")
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let channel = pusher.subscribe("dispatch")
+        channel.bind("location", callback: { (data: AnyObject?) -> Void in
+            self.requestRecieved()
+            print("message received: \(data)")
+        })
+        
+        pusher.connect()
+
         
         //Icon at nav
         let logo = UIImage(named: "logo_dispatch")
@@ -63,7 +76,26 @@ class MapViewController: UIViewController, CLLocationManagerDelegate, MKMapViewD
             }
         }
         
+        //requestRecieved()
+        
         self.map.delegate = self
+    }
+    
+    func requestRecieved() {
+        let alert = SCLAlertView()
+        alert.addButton("Accept") {
+            print("accest")
+        }
+        
+        alert.showTitle(
+            "Emergency Incident",
+            subTitle: "New incident reported near you",
+            duration: 15.0,
+            completeText: "Decline",
+            style: .Wait,
+            colorStyle: 0x43d4e6,
+            colorTextButton: 0xFFFFFF
+        )
     }
     
     // Mark: - Helper functions
