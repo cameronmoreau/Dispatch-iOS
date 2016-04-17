@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		7EDD2A5E1CC3890B00235967 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A5D1CC3890B00235967 /* AppDelegate.swift */; };
-		7EDD2A601CC3890B00235967 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A5F1CC3890B00235967 /* ViewController.swift */; };
 		7EDD2A631CC3890B00235967 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD2A611CC3890B00235967 /* Main.storyboard */; };
 		7EDD2A661CC3890B00235967 /* hackdfw.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A641CC3890B00235967 /* hackdfw.xcdatamodeld */; };
 		7EDD2A681CC3890B00235967 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD2A671CC3890B00235967 /* Assets.xcassets */; };
 		7EDD2A6B1CC3890B00235967 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EDD2A691CC3890B00235967 /* LaunchScreen.storyboard */; };
 		7EDD2A761CC3890B00235967 /* hackdfwTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A751CC3890B00235967 /* hackdfwTests.swift */; };
 		7EDD2A811CC3890B00235967 /* hackdfwUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A801CC3890B00235967 /* hackdfwUITests.swift */; };
+		7EDD2A961CC389B000235967 /* ActivityTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A8E1CC389B000235967 /* ActivityTableViewController.swift */; };
+		7EDD2A971CC389B000235967 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A8F1CC389B000235967 /* EntryViewController.swift */; };
+		7EDD2A981CC389B000235967 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A901CC389B000235967 /* MapViewController.swift */; };
+		7EDD2A991CC389B000235967 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A911CC389B000235967 /* SignUpViewController.swift */; };
+		7EDD2A9A1CC389B000235967 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A921CC389B000235967 /* ToggleButton.swift */; };
+		7EDD2A9B1CC389B000235967 /* UIButtonExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A931CC389B000235967 /* UIButtonExtension.swift */; };
+		7EDD2A9C1CC389B000235967 /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A941CC389B000235967 /* UIColorExtension.swift */; };
+		7EDD2A9D1CC389B000235967 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2A951CC389B000235967 /* UIViewExtension.swift */; };
+		7EDD2AA11CC38B8F00235967 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2AA01CC38B8F00235967 /* ApiManager.swift */; };
+		7EDD2AA31CC38C4500235967 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2AA21CC38C4500235967 /* User.swift */; };
+		7EDD2AA61CC395A800235967 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2AA51CC395A800235967 /* Vehicle.swift */; };
+		7EDD2AA81CC39D0E00235967 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EDD2AA71CC39D0E00235967 /* CustomAnnotation.swift */; };
+		8832853C928501D285574F94 /* Pods_hackdfw.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FBDE9BAC7AF11827FBE1A337 /* Pods_hackdfw.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +49,6 @@
 /* Begin PBXFileReference section */
 		7EDD2A5A1CC3890B00235967 /* hackdfw.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackdfw.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDD2A5D1CC3890B00235967 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7EDD2A5F1CC3890B00235967 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EDD2A621CC3890B00235967 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EDD2A651CC3890B00235967 /* hackdfw.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = hackdfw.xcdatamodel; sourceTree = "<group>"; };
 		7EDD2A671CC3890B00235967 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +60,21 @@
 		7EDD2A7C1CC3890B00235967 /* hackdfwUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackdfwUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EDD2A801CC3890B00235967 /* hackdfwUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackdfwUITests.swift; sourceTree = "<group>"; };
 		7EDD2A821CC3890B00235967 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EDD2A8E1CC389B000235967 /* ActivityTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityTableViewController.swift; sourceTree = "<group>"; };
+		7EDD2A8F1CC389B000235967 /* EntryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		7EDD2A901CC389B000235967 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7EDD2A911CC389B000235967 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		7EDD2A921CC389B000235967 /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		7EDD2A931CC389B000235967 /* UIButtonExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIButtonExtension.swift; sourceTree = "<group>"; };
+		7EDD2A941CC389B000235967 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		7EDD2A951CC389B000235967 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		7EDD2AA01CC38B8F00235967 /* ApiManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		7EDD2AA21CC38C4500235967 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7EDD2AA51CC395A800235967 /* Vehicle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		7EDD2AA71CC39D0E00235967 /* CustomAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		A608DA587470FC54161F3989 /* Pods-hackdfw.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackdfw.release.xcconfig"; path = "Pods/Target Support Files/Pods-hackdfw/Pods-hackdfw.release.xcconfig"; sourceTree = "<group>"; };
+		EE344F593C3637A06ADB33D7 /* Pods-hackdfw.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hackdfw.debug.xcconfig"; path = "Pods/Target Support Files/Pods-hackdfw/Pods-hackdfw.debug.xcconfig"; sourceTree = "<group>"; };
+		FBDE9BAC7AF11827FBE1A337 /* Pods_hackdfw.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_hackdfw.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8832853C928501D285574F94 /* Pods_hackdfw.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +103,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BCF9C0AB1D3B4C7FCD1DA2A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FBDE9BAC7AF11827FBE1A337 /* Pods_hackdfw.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7EDD2A511CC3890B00235967 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +118,8 @@
 				7EDD2A741CC3890B00235967 /* hackdfwTests */,
 				7EDD2A7F1CC3890B00235967 /* hackdfwUITests */,
 				7EDD2A5B1CC3890B00235967 /* Products */,
+				93752A448EFFC7916F80710C /* Pods */,
+				3BCF9C0AB1D3B4C7FCD1DA2A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +136,18 @@
 		7EDD2A5C1CC3890B00235967 /* hackdfw */ = {
 			isa = PBXGroup;
 			children = (
+				7EDD2AA41CC38CFF00235967 /* Models */,
+				7EDD2A9F1CC38A4000235967 /* Extensions */,
+				7EDD2A9E1CC38A3A00235967 /* View Controllers */,
+				7EDD2A921CC389B000235967 /* ToggleButton.swift */,
 				7EDD2A5D1CC3890B00235967 /* AppDelegate.swift */,
-				7EDD2A5F1CC3890B00235967 /* ViewController.swift */,
 				7EDD2A611CC3890B00235967 /* Main.storyboard */,
 				7EDD2A671CC3890B00235967 /* Assets.xcassets */,
 				7EDD2A691CC3890B00235967 /* LaunchScreen.storyboard */,
 				7EDD2A6C1CC3890B00235967 /* Info.plist */,
 				7EDD2A641CC3890B00235967 /* hackdfw.xcdatamodeld */,
+				7EDD2AA01CC38B8F00235967 /* ApiManager.swift */,
+				7EDD2AA71CC39D0E00235967 /* CustomAnnotation.swift */,
 			);
 			path = hackdfw;
 			sourceTree = "<group>";
@@ -128,6 +170,45 @@
 			path = hackdfwUITests;
 			sourceTree = "<group>";
 		};
+		7EDD2A9E1CC38A3A00235967 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				7EDD2A8E1CC389B000235967 /* ActivityTableViewController.swift */,
+				7EDD2A8F1CC389B000235967 /* EntryViewController.swift */,
+				7EDD2A901CC389B000235967 /* MapViewController.swift */,
+				7EDD2A911CC389B000235967 /* SignUpViewController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		7EDD2A9F1CC38A4000235967 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7EDD2A931CC389B000235967 /* UIButtonExtension.swift */,
+				7EDD2A941CC389B000235967 /* UIColorExtension.swift */,
+				7EDD2A951CC389B000235967 /* UIViewExtension.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		7EDD2AA41CC38CFF00235967 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7EDD2AA21CC38C4500235967 /* User.swift */,
+				7EDD2AA51CC395A800235967 /* Vehicle.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		93752A448EFFC7916F80710C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EE344F593C3637A06ADB33D7 /* Pods-hackdfw.debug.xcconfig */,
+				A608DA587470FC54161F3989 /* Pods-hackdfw.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EDD2A851CC3890B00235967 /* Build configuration list for PBXNativeTarget "hackdfw" */;
 			buildPhases = (
+				F8232BF534FC8C22A9D5D82B /* Check Pods Manifest.lock */,
 				7EDD2A561CC3890B00235967 /* Sources */,
 				7EDD2A571CC3890B00235967 /* Frameworks */,
 				7EDD2A581CC3890B00235967 /* Resources */,
+				FA7F84BB19CA01D0F7BEBCD0 /* Embed Pods Frameworks */,
+				158E4CE690822B5864FC2803 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -254,14 +338,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		158E4CE690822B5864FC2803 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackdfw/Pods-hackdfw-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8232BF534FC8C22A9D5D82B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FA7F84BB19CA01D0F7BEBCD0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-hackdfw/Pods-hackdfw-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EDD2A561CC3890B00235967 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EDD2A601CC3890B00235967 /* ViewController.swift in Sources */,
+				7EDD2AA61CC395A800235967 /* Vehicle.swift in Sources */,
+				7EDD2A961CC389B000235967 /* ActivityTableViewController.swift in Sources */,
+				7EDD2A991CC389B000235967 /* SignUpViewController.swift in Sources */,
+				7EDD2A9D1CC389B000235967 /* UIViewExtension.swift in Sources */,
+				7EDD2A981CC389B000235967 /* MapViewController.swift in Sources */,
+				7EDD2A9A1CC389B000235967 /* ToggleButton.swift in Sources */,
+				7EDD2A971CC389B000235967 /* EntryViewController.swift in Sources */,
+				7EDD2AA11CC38B8F00235967 /* ApiManager.swift in Sources */,
+				7EDD2A9B1CC389B000235967 /* UIButtonExtension.swift in Sources */,
+				7EDD2AA31CC38C4500235967 /* User.swift in Sources */,
+				7EDD2A9C1CC389B000235967 /* UIColorExtension.swift in Sources */,
 				7EDD2A5E1CC3890B00235967 /* AppDelegate.swift in Sources */,
 				7EDD2A661CC3890B00235967 /* hackdfw.xcdatamodeld in Sources */,
+				7EDD2AA81CC39D0E00235967 /* CustomAnnotation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +546,7 @@
 		};
 		7EDD2A861CC3890B00235967 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EE344F593C3637A06ADB33D7 /* Pods-hackdfw.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hackdfw/Info.plist;
@@ -414,6 +558,7 @@
 		};
 		7EDD2A871CC3890B00235967 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A608DA587470FC54161F3989 /* Pods-hackdfw.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = hackdfw/Info.plist;
@@ -488,6 +633,7 @@
 				7EDD2A871CC3890B00235967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EDD2A881CC3890B00235967 /* Build configuration list for PBXNativeTarget "hackdfwTests" */ = {
 			isa = XCConfigurationList;
@@ -496,6 +642,7 @@
 				7EDD2A8A1CC3890B00235967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7EDD2A8B1CC3890B00235967 /* Build configuration list for PBXNativeTarget "hackdfwUITests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +651,7 @@
 				7EDD2A8D1CC3890B00235967 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

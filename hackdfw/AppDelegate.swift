@@ -16,7 +16,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        UITabBar.appearance().tintColor = UIColor.mainColor()
+        
+        let user = User()
+        user.loadStoredData()
+        
+        if user.isAuthenticated() {
+            let sb = UIStoryboard(name: "Main", bundle: nil)
+            self.window?.rootViewController = sb.instantiateViewControllerWithIdentifier("MainNavigationController")
+        }
+        
         return true
     }
 

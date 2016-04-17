@@ -1,0 +1,6 @@
+framework module Pods_hackdfw {
+  umbrella header "Pods-hackdfw-umbrella.h"
+
+  export *
+  module * { export * }
+}
